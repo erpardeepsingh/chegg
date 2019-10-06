@@ -1,0 +1,17 @@
+<form>
+<select id="img" value="">
+    <option value="">Select...</option>
+    <option value="/first">Paradise</option>
+    <option value="/second">Coldplay</option>
+    <option value="/third">Paradise1</option>
+    <option value="/fourth">Coldplay2</option>
+    <option value="/fifth">Coldplay2</option>
+</select>
+<button type="button" onclick="myfunc()">Submit</button>
+</form>
+<script>
+function myfunc(){
+var j=document.getElementById("img").value;
+window.location=j;
+}
+</script>
